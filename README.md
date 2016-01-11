@@ -340,3 +340,25 @@ setTimeout(function(){
     mask.destroy()
 }, 1000);
 ```
+
+
+##11、十六进制颜色值的随机生成
+
+```javascript
+var arrHex=["0","1","2","3","4","5","6","7","8","9","a","b","c","d"],
+    strHex="#",
+    index;
+    for(var i=0;i<6;i++){
+     index=Math.floor(Math.random()*14);
+     strHex+=arrHex[index];
+    }
+return strHex;
+}
+console.log(randomColor());
+
+function getRandomColor(){
+   return "#"+("00000"+((Math.random()*16777215+0.5)>>0).toString(16)).slice(-6);
+}
+console.log(getRandomColor());
+
+```
