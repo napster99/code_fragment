@@ -362,3 +362,43 @@ function getRandomColor(){
 console.log(getRandomColor());
 
 ```
+
+说明：
+
+1、16777215为16进制的颜色ffffff转成10进制的数字
+
+2、>>数字取整
+
+3、转成16进制不足6位的以0来补充
+
+##12、实现字符串长度截取并在结尾添加…
+```javascript
+function cutstr(str, len) {
+    var temp;
+    var icount = 0;
+    var patrn = /[^\x00-\xff]/;  //表示汉字或者全角，即ASCII 编码不在0-255的字符
+    var strre = "";
+    for (var i = 0; i < str.length; i++) {
+        if (icount < len) {
+            // 每次截取一个字符
+            temp = str.substr(i, 1);
+            if (patrn.exec(temp) == null) {
+                // 如果是英文、半角
+                icount = icount + 1
+            } else {
+                // 如果是中文、全角
+                icount = icount + 2
+            }
+            // 字符串连接
+            strre += temp
+        } else {
+            break
+        }
+    }
+    return strre + "..."
+}
+// demo:
+cutstr("zhangxiaojian", 2)  //zh...
+cutstr("高斯林", 3)    //高斯...
+
+```
