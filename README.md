@@ -408,9 +408,46 @@ cutstr("高斯林", 3)    //高斯...
 ##13、打乱一个数字数组
 ```javascript
 
-    var numbers = [5, 458 , 120 , -215 , 228 , 400 , 122205, -85411];
-    numbers = numbers.sort(function(){ return Math.random() - 0.5});
-    /* the array numbers will be equal for example to 
+var numbers = [5, 458 , 120 , -215 , 228 , 400 , 122205, -85411];
+numbers = numbers.sort(function(){ return Math.random() - 0.5});
+/* the array numbers will be equal for example to 
 
 ```
+
+##14、 String的trim函数
+```javascript
+String.prototype.trim = function(){return this.replace(/^\s+|\s+$/g, "");};
+```
+
+
+###15、验证参数是否是数字（number）
+```javascript
+function isNumber(n){
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+```
+
+###16、验证参数是否是数组
+```javascript
+function isArray(obj){
+    return Object.prototype.toString.call(obj) === '[object Array]' ;
+}
+//Array.isArray(obj); // 这是一个新的array的方法
+```
+
+###17、清空一个数组
+```javascript
+var myArray = [12 , 222 , 1000 ];
+myArray.length = 0; // myArray will be equal to [].
+//Array.isArray(obj); // 这是一个新的array的方法
+```
+
+
+
+
+
+
+
+
+
 
