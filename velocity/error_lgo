@@ -1,0 +1,93 @@
+03-18 16:45:57.317 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: roam
+03-18 16:45:57.317 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: set mShowPhoneRSSIForData = false
+03-18 16:45:58.657 634-1152/? E/DatabaseUtils: Writing exception to parcel
+                                               java.lang.SecurityException: Permission Denial: get/set setting for user asks to run as user -2 but is calling from user 0; this requires android.permission.INTERACT_ACROSS_USERS_FULL
+                                                   at com.android.server.am.ActivityManagerService.handleIncomingUser(ActivityManagerService.java:13466)
+                                                   at android.app.ActivityManager.handleIncomingUser(ActivityManager.java:2058)
+                                                   at com.android.providers.settings.SettingsProvider.callFromPackage(SettingsProvider.java:615)
+                                                   at android.content.ContentProvider$Transport.call(ContentProvider.java:279)
+                                                   at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:273)
+                                                   at android.os.Binder.execTransact(Binder.java:388)
+                                                   at dalvik.system.NativeStart.run(Native Method)
+03-18 16:45:58.807 27037-27037/com.apicloud.A6989041790790 E/ViewRootImpl: sendUserActionEvent() mView == null
+03-18 16:45:59.347 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: roam
+03-18 16:45:59.347 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: set mShowPhoneRSSIForData = false
+03-18 16:45:59.937 1053-1053/? E/StatusBar.NetworkController: updateTelephonySignalStrength: roam new iconLevel = 4
+03-18 16:45:59.937 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: roam
+03-18 16:45:59.937 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: set mShowPhoneRSSIForData = false
+03-18 16:45:59.957 634-1197/? E/EnterpriseContainerManager: ContainerPolicy Service is not yet ready!!!
+03-18 16:45:59.967 27037-27037/com.apicloud.A6989041790790 E/ViewRootImpl: sendUserActionEvent() mView == null
+03-18 16:45:59.977 350-350/? E/SMD: DCD ON
+03-18 16:46:00.907 27037-27308/com.apicloud.A6989041790790 E/ReactNativeJS: 'Error: \n stack: http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3512:16\nforEach@[native code]\nhttp://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3509:35\nrequireImpl@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:77:17\nrequire@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:37:19\nhttp://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:4786:22\nrequireImpl@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:77:17\nrequire@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:37:19\nsetUpTimers@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:1942:21\nhttp://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:2032:12\nrequireImpl@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:77:17\nrequireImpl@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:45:30\nrequire@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:37:19\nglobal code@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:110518:9\n line: 3513\n message: Module cannot be registered as both RCT and RK: RKCameraRollManager', { [Error: Module cannot be registered as both RCT and RK: RKCameraRollManager]
+                                                                              line: 3513,
+                                                                              column: 63,
+                                                                              sourceURL: 'http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false' }
+03-18 16:46:00.927 27037-27308/com.apicloud.A6989041790790 E/ReactNative: Got JS Exception: Error: Requiring module "NativeModules" which threw an exception
+03-18 16:46:00.957 27037-27308/com.apicloud.A6989041790790 E/unknown:React: Exception in native call from JS
+                                                                            com.facebook.react.bridge.JSExecutionException: Error: Requiring module "NativeModules" which threw an exception (line 64 in the generated bundle)
+                                                                                at com.facebook.react.bridge.ReactBridge.loadScriptFromFile(Native Method)
+                                                                                at com.facebook.react.bridge.JSBundleLoader$2.loadScript(JSBundleLoader.java:58)
+                                                                                at com.facebook.react.bridge.CatalystInstanceImpl$2.call(CatalystInstanceImpl.java:150)
+                                                                                at com.facebook.react.bridge.CatalystInstanceImpl$2.call(CatalystInstanceImpl.java:141)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadImpl$1.run(MessageQueueThreadImpl.java:74)
+                                                                                at android.os.Handler.handleCallback(Handler.java:730)
+                                                                                at android.os.Handler.dispatchMessage(Handler.java:92)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:31)
+                                                                                at android.os.Looper.loop(Looper.java:177)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadImpl$3.run(MessageQueueThreadImpl.java:185)
+                                                                                at java.lang.Thread.run(Thread.java:841)
+03-18 16:46:01.027 634-26913/? E/EnterpriseContainerManager: ContainerPolicy Service is not yet ready!!!
+03-18 16:46:01.037 27037-27308/com.apicloud.A6989041790790 E/ReactNativeJS: 'Error: \n stack: invariant@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:4517:16\n__callFunction@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3794:10\nhttp://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3703:22\nguard@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3657:3\ncallFunctionReturnFlushedQueue@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3702:6\ncallFunctionReturnFlushedQueue@[native code]\nglobal code\n line: 4524\n message: Module RCTDeviceEventEmitter is not a registered callable module.', { [Invariant Violation: Module RCTDeviceEventEmitter is not a registered callable module.]
+                                                                              name: 'Invariant Violation',
+                                                                              framesToPop: 1,
+                                                                              line: 4524,
+                                                                              column: 12,
+                                                                              sourceURL: 'http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false' }
+03-18 16:46:01.037 27037-27308/com.apicloud.A6989041790790 E/ReactNative: Got JS Exception: Error: Requiring module "loadSourceMap" which threw an exception
+03-18 16:46:01.047 27037-27308/com.apicloud.A6989041790790 E/unknown:React: Exception in native call from JS
+                                                                            com.facebook.react.bridge.JSExecutionException: Error: Requiring module "loadSourceMap" which threw an exception (line 64 in the generated bundle)
+                                                                                at com.facebook.react.bridge.ReactBridge.callFunction(Native Method)
+                                                                                at com.facebook.react.bridge.CatalystInstanceImpl$3.run(CatalystInstanceImpl.java:203)
+                                                                                at android.os.Handler.handleCallback(Handler.java:730)
+                                                                                at android.os.Handler.dispatchMessage(Handler.java:92)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:31)
+                                                                                at android.os.Looper.loop(Looper.java:177)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadImpl$3.run(MessageQueueThreadImpl.java:185)
+                                                                                at java.lang.Thread.run(Thread.java:841)
+03-18 16:46:01.047 27037-27308/com.apicloud.A6989041790790 E/ReactNativeJS: 'Error: \n stack: invariant@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:4517:16\n__callFunction@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3794:10\nhttp://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3703:22\nguard@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3657:3\ncallFunctionReturnFlushedQueue@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3702:6\ncallFunctionReturnFlushedQueue@[native code]\nglobal code\n line: 4524\n message: Module AppRegistry is not a registered callable module.', { [Invariant Violation: Module AppRegistry is not a registered callable module.]
+                                                                              name: 'Invariant Violation',
+                                                                              framesToPop: 1,
+                                                                              line: 4524,
+                                                                              column: 12,
+                                                                              sourceURL: 'http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false' }
+03-18 16:46:01.047 27037-27308/com.apicloud.A6989041790790 E/ReactNative: Got JS Exception: Error: Requiring module "loadSourceMap" which threw an exception
+03-18 16:46:01.057 27037-27308/com.apicloud.A6989041790790 E/unknown:React: Exception in native call from JS
+                                                                            com.facebook.react.bridge.JSExecutionException: Error: Requiring module "loadSourceMap" which threw an exception (line 64 in the generated bundle)
+                                                                                at com.facebook.react.bridge.ReactBridge.callFunction(Native Method)
+                                                                                at com.facebook.react.bridge.CatalystInstanceImpl$3.run(CatalystInstanceImpl.java:203)
+                                                                                at android.os.Handler.handleCallback(Handler.java:730)
+                                                                                at android.os.Handler.dispatchMessage(Handler.java:92)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:31)
+                                                                                at android.os.Looper.loop(Looper.java:177)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadImpl$3.run(MessageQueueThreadImpl.java:185)
+                                                                                at java.lang.Thread.run(Thread.java:841)
+03-18 16:46:01.077 27037-27308/com.apicloud.A6989041790790 E/ReactNativeJS: 'Error: \n stack: invariant@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:4517:16\n__callFunction@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3794:10\nhttp://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3703:22\nguard@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3657:3\ncallFunctionReturnFlushedQueue@http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false:3702:6\ncallFunctionReturnFlushedQueue@[native code]\nglobal code\n line: 4524\n message: Module RCTDeviceEventEmitter is not a registered callable module.', { [Invariant Violation: Module RCTDeviceEventEmitter is not a registered callable module.]
+                                                                              name: 'Invariant Violation',
+                                                                              framesToPop: 1,
+                                                                              line: 4524,
+                                                                              column: 12,
+                                                                              sourceURL: 'http://192.168.0.102:8081/index.android.bundle?platform=android&dev=true&hot=false' }
+03-18 16:46:01.077 27037-27308/com.apicloud.A6989041790790 E/ReactNative: Got JS Exception: Error: Requiring module "loadSourceMap" which threw an exception
+03-18 16:46:01.077 27037-27308/com.apicloud.A6989041790790 E/unknown:React: Exception in native call from JS
+                                                                            com.facebook.react.bridge.JSExecutionException: Error: Requiring module "loadSourceMap" which threw an exception (line 64 in the generated bundle)
+                                                                                at com.facebook.react.bridge.ReactBridge.callFunction(Native Method)
+                                                                                at com.facebook.react.bridge.CatalystInstanceImpl$3.run(CatalystInstanceImpl.java:203)
+                                                                                at android.os.Handler.handleCallback(Handler.java:730)
+                                                                                at android.os.Handler.dispatchMessage(Handler.java:92)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:31)
+                                                                                at android.os.Looper.loop(Looper.java:177)
+                                                                                at com.facebook.react.bridge.queue.MessageQueueThreadImpl$3.run(MessageQueueThreadImpl.java:185)
+                                                                                at java.lang.Thread.run(Thread.java:841)
+03-18 16:46:01.877 26861-27330/? E/ws000: begin call prefClean
+03-18 16:46:01.877 26861-27330/? E/ws000: end call prefClean
+03-18 16:46:02.347 1053-1053/? E/StatusBar.NetworkController: refreshSignalCluster: roam

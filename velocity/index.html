@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>	
+		<title></title>
+		<style type="text/css">
+			#performanceUI {
+		        position: fixed;
+
+		        /*top: 105%;*/
+		        left: 50%;
+		        width: 26em;
+		        margin-left: -13.5em;
+		        padding: 0.5em;
+
+		        border: 1px solid #b9b6c0;
+		        background-color: rgb(249, 249, 249);
+
+		        color: #4b4d53;
+		        font-size: 0.65em;
+		        line-height: 1.25em;
+
+		        div ~ div {
+		            margin-top: 0.5em;
+		        }
+
+	        #performanceUIClose {
+	            display: block;
+	            position: absolute;
+	            top: 0.4em;
+	            right: 0.5em;
+
+	            color: #5d6069;
+	            font-size: 0.65em;
+	            font-weight: bold;
+	        }
+
+	        #performanceUIOkay {
+	            margin-top: 0.7em;
+
+	            text-align: center;
+	            font-weight: bold;
+	        }
+		</style>
+	</head>
+	<body>
+
+		<a id="dataBody-Performance2BtnStart" target="_blank">Click here</a>
+
+		<div id="performanceUIIndicator" class="" style="display: none; opacity: 0; color: rgb(0, 200, 78);">Velocity</div>
+
+		<div id="performanceUI" class="" style="bottom: -50%;">
+				<span id="performanceUIClose">
+					X
+				</span>
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+				<div>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+				<div id="performanceUIOkay">
+					I agree. I disagree.
+				</div>
+			</div>
+
+
+	</body>
+	<script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+	<script src="jquery.gsap.js"></script>
+	<script src="./velocity.js"></script>
+
+	<script src="index.js"></script>
+</html>

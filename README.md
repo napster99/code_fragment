@@ -402,3 +402,15 @@ cutstr("zhangxiaojian", 2)  //zh...
 cutstr("高斯林", 3)    //高斯...
 
 ```
+
+
+
+##13、打乱一个数字数组
+```javascript
+
+    var numbers = [5, 458 , 120 , -215 , 228 , 400 , 122205, -85411];
+    numbers = numbers.sort(function(){ return Math.random() - 0.5});
+    /* the array numbers will be equal for example to 
+
+```
+
